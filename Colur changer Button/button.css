@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background-color 0.5s ;
+    font-family: caprasimo;
+}
+#btn{
+    padding: 20px;
+    width: 50%;
+    background-color: rgb(249, 249, 249);
+    border-radius: 8px;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+    font-family: caprasimo;
+}
+#btn:hover{
+    background-color: rgb(242, 235, 235);
+}
+#paragraph{
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+     margin-top: 20px;
+   
+}
